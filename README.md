@@ -1,4 +1,4 @@
-# Build Real-Time AI Voice Assistant with RAG Pipeline and Memory | Mistral LLM | Ollama
+# Real-Time AI Voice Assistant with RAG Pipeline and Memory | Mistral LLM | Ollama
 
 This repository contains code for a real-time voice assistant designed for e-commerce and grocery shopping. The assistant continuously listens, transcribes user input, retrieves relevant product details and policies using a RAG pipeline, and generates responses using an AI model.
 
