@@ -22,7 +22,6 @@ Before running the project, ensure you have the following dependencies installed
 - numpy
 - faster_whisper
 - qdrant_client
-- faiss-cpu
 - langchain
 - ollama
 - Other dependencies specified in requirements.txt
@@ -70,17 +69,6 @@ npm run dev
 - Speak into the microphone when prompted.
 - The assistant will retrieve and respond with relevant product details.
 
-## Configuration
-
-- Adjust model settings (e.g., chunk size, response delay) in config.py.
-- Modify database and storage paths as per your local setup.
-- Update web scraping settings in the Playwright/Selenium script if needed.
-
-## Notes
-
-- Ensure your microphone is properly configured.
-- API rate limits might apply when fetching live product details.
-- Handle exceptions gracefully during real-time data retrieval and processing.
 
 ## Team - Byte Me
 
@@ -95,9 +83,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- *Mistral LLM & DeepSeek* for language modeling.
+- *Mistral LLM* for language modeling.
 - *faster_whisper* for efficient speech-to-text transcription.
 - *LangChain & Ollama* for the RAG pipeline.
-- *ChromaDB, FAISS & Qdrant* for knowledge retrieval.
-- *Selenium & Playwright* for real-time product details fetching.
-- *React, TypeScript, and Tailwind CSS* for UI development.
+- *Qdrant* for knowledge retrieval.
+- *React, and Tailwind CSS* for UI development.
