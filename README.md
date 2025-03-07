@@ -37,7 +37,7 @@ Watch the demo video here:
 
 1. *Clone the repository*:
    bash
-   git clone https://github.com/your-repo/voice_assistant_ai.git
+   git clone [https://github.com/wixk7/voice-assistant.git](https://github.com/wixk7/voice-assistant)
    cd voice_assistant_ai
 ## Setup Instructions
 
